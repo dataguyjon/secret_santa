@@ -12,15 +12,19 @@
 // ============================================================================
 
 const people = [
-  { name: "Family Member 1", partner: "Family Member 2" },
-  { name: "Family Member 2", partner: "Family Member 1" },
-  { name: "Family Member 3", partner: "Family Member 4" },
-  { name: "Family Member 4", partner: "Family Member 3" },
-  { name: "Family Member 5", restrictions: [] },
-  { name: "Family Member 6", restrictions: [] },
-  { name: "Family Member 7", restrictions: [] },
-  { name: "Family Member 8", restrictions: [] },
+  { name: "Steve", partner: "Deanna" },
+  { name: "Deanna", partner: "Steve" },
+  { name: "Tim", partner: "Angie" },
+  { name: "Angie", partner: "Tim" },
+  { name: "Jon", partner: "Carmen" },
+  { name: "Carmen", partner: "Jon" },
+  { name: "Nathan", partner: "Marcy" },
+  { name: "Marcy", partner: "Nathan" },
+  // { name: "Person 1", restrictions: ["Person 2", "Person 3"] },
+  // { name: "Person 2", restrictions: ["Person 1", "Person 3"] },
+  // { name: "Person 4" },
 ];
 
 // Initialize the Secret Santa application for Wilhelm family
 initSecretSanta(people);
+
