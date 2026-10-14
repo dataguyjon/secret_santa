@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>West Secret Santa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>West Secret Santa</h1>
+  </header>
+  <main>
+    <div id="app">
+      <p id="instruction-text" class="instruction">Click your name to see who you are buying for!</p>
+      <ul id="name-list"></ul>
+      <div id="result-section">
+        <div id="assignment-result"></div>
+        <button id="back-button">Back to List</button>
+      </div>
+      <div id="done-section">
+        <p class="done-title">🎉 All Done! 🎉</p>
+        <p>Everyone has received their Secret Santa assignment.</p>
+        <button id="reset-button">Start Over</button>
+      </div>
+    </div>
+  </main>
+  <script src="secret_santa.js"></script>
+  <script src="west.js"></script>
+</body>
+</html>
