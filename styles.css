@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Mountains of Christmas', cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #EAF7FF, #C2E9FB); /* Winter gradient */
+    color: #2C3E50;
+  }
+  
+  /* Header */
+  header {
+    background-color: #FF0000; /* Christmas red */
+    color: #FFFFFF;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px #000;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 2rem;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border: 2px solid #FFD700; /* Gold border */
+  }
+  
+  /* List of Names */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #FFFAF0; /* Light festive tone */
+    border: 1px solid #FFD700; /* Gold */
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2C3E50;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #FFEB3B; /* Yellow highlight */
+    transform: scale(1.05);
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    background-color: #FF0000; /* Christmas red */
+    color: white;
+    cursor: pointer;
+    border-radius: 10px; /* Keep the rounded edges */
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add subtle shadow for a "pop" effect */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #CC0000; /* Slightly darker red on hover */
+    transform: scale(1.05); /* Add a slight hover zoom effect */
+  }  
+  
+  /* Result Section */
+  #result-section, #done-section {
+    display: none;
+    margin-top: 2rem;
+  }
+  
+  #result-section p {
+    font-size: 1.5rem;
+    color: #FF0000;
+    margin: 0.5rem 0;
+    text-shadow: 1px 1px 3px #FFD700;
+  }
+  
+  #result-section strong {
+    font-size: 2rem; /* Keep it large */
+    color: #4CAF50; /* Green for Christmas theme */
+    font-family: Arial, sans-serif; /* Clean sans-serif font */
+    font-weight: bold; /* Emphasize the text */
+    text-shadow: none; /* Remove shadow */
+    letter-spacing: 0.5px; /* Add slight spacing for clarity */
+  }
+  
+  
+  #done-section {
+    font-size: 1.2rem;
+    color: #2C3E50;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid #FFD700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer (Optional) */
+  footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #2C3E50;
+  }
+  
+  /* Extra Christmas Decor */
+  body::before {
+    content: "🎄";
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  
+  body::after {
+    content: "❄️";
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  #name-list {
+    display: block; /* Name list is shown by default */
+  }
+  
+  #result-section {
+    display: none; /* Result section is hidden by default */
+  }
+  
