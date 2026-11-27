@@ -10,6 +10,8 @@ const people = [
   { name: "Emily", partner: "Bryson" },
   { name: "Jon", partner: "Carmen" },
   { name: "Carmen", partner: "Jon" },
+  { name: "Koa", partner: "Rachel" },
+  { name: "Rachel", partner: "Koa" },
   { name: "Sheri", restrictions: ["Mark", "Nan"] },
   { name: "Josh" },
 ];
